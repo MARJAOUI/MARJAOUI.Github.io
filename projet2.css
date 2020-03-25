@@ -1,0 +1,191 @@
+html,body
+{
+	padding: 0;
+	margin: 0;}
+body
+{
+	font-family: 'arial','raleway','open-sans';
+	max-height: auto;
+	border-top: 2px solid silver;
+	border-bottom: 2px solid silver;}
+header
+{
+	display: flex;}
+.titre1
+{
+	font-size: 2.2em;}
+#MaPhoto
+{
+	width: 25%;
+	background-color: #FFD600;
+	text-align: center;	}
+#MaPhoto+div
+{
+	width: 75%;
+	max-width: auto;
+	padding-left: 40px;}
+h1
+{
+	font-weight: normal;
+	width: 100%;}
+h1 span
+{
+	color: #FFD600;}
+h1+p
+{
+	font-weight: bold;
+	font-size: 1.2em;}
+.souligne
+{
+	border-bottom: 1.2px solid #FFD600;}
+section
+{
+	display: flex;
+	flex-direction: row;
+	max-height: auto;}
+#Blocpresentation
+{
+	width: 25%;
+	background-color: #FFD600;}
+h3
+{
+	font-size: 1.5em;
+	height: 40px;
+	text-align: center;
+	color: #FFD600;
+	background-color: black;
+	padding-top: 10px;}
+h3+p
+{
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: justify;}
+#Blocpresentation p
+{
+	padding: 0 40 0 40;
+}
+#Blocparcours
+{	width: 75%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;}
+.date
+{
+	width: auto;}
+.diplome
+{
+	width: 800px;		/* afin de valider margin-left:auto;*/
+	margin-left:auto;}
+h4
+{
+	margin-top: 0px;}
+.fa-graduation-cap
+{
+	font-size: 32px;
+	color: #FFD600;}
+.fa-file-signature
+{
+	font-size: 32px;
+	color: #FFD600;}
+.fa-envelope-open-text
+{
+	font-size: 32px;
+	color: #FFD600;}
+hr
+{
+	height: 3px;
+    background-color: #FFD600;
+    border: none;
+    margin-top: -15px;}
+h2
+{
+	max-width: auto;}  /* ancien 900px */
+h2>i
+{
+	margin-right: 20px;}
+#fp
+{
+  list-style-type: none;
+  width: auto;
+  margin-left: -40px;}
+.fp1:before {
+  content: "\2022";
+  float: left;
+  color: #FFD600;
+  margin-right: 20px;}
+.fp1 {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  text-align: justify;}
+.fp0:before {
+  content: "\¤";
+  float: left;
+  color: #FFD600;
+  margin-right: 20px;}
+.fp0 {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  text-align: justify;}
+#ep 
+{
+  list-style-type: none;
+  width: auto;
+  margin-left: -40px;}
+.ep1:before {
+  content: "\¤";   /*e*/
+  float: left;
+  color: #FFD600;
+  margin-right: 20px;}
+.ep1 {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  text-align: justify;}
+footer
+{
+	display: flex;
+	height: auto;}
+#loisirs
+{
+	width: 25%;
+	background-color: #FFD600;
+	padding-bottom: 50px;
+	height: auto;}
+#loisirs>div
+{
+	display: flex;
+	align-items: center; 
+	justify-content: space-around;
+	width: auto;
+	height: auto;}
+#icones i
+{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 4% 4% 4% 4%;}
+.fa-swimmer
+{
+	font-size: 40px;}
+.fa-music
+{
+	font-size: 40px;}
+.fa-plane-departure
+{
+	font-size: 40px;}
+#recommendations
+{
+	width: 75%;
+	display: flex;
+	max-width: auto;
+	height: auto;
+	padding-left: 40px;}
+#recommendations>div
+{
+	width: 50%;}

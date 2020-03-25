@@ -1,0 +1,79 @@
+header
+{
+	flex-direction: column;
+	width: auto;}
+#MaPhoto
+{
+	width: 100%;}
+#MaPhoto+div
+{
+	width:100%; 
+	padding-left: 40px;}
+section
+{
+	flex-direction: column;
+	width: auto;}
+hr
+{
+	width: auto;}
+#Blocpresentation
+{
+	width: auto;}
+#Blocparcours
+{
+	width: auto;}
+#ep1
+{
+	text-align: justify;
+	width: 100%;}
+.ep1 {
+    text-align: left;
+	display: flex;
+	flex-direction: row;
+	width: auto;
+	text-align: justify;}
+#fp1
+{
+	text-align: justify;
+	width: 100%;} 
+footer
+{
+	width: auto;
+	flex-direction: column;
+	display: flex;}
+#recommendations
+{
+	width: auto;}
+#loisirs
+{
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;}
+#icones i
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	border: 2px solid black;
+	padding: 4% 4% 4% 4%;}
+#loisirs>div
+{
+	display: flex;
+	justify-content: space-around;}
+.justify
+{
+	text-align: justify;}
+			
+#experience
+{
+	width: 100%;}
+.date
+{
+	width: auto;}
+.diplome
+{
+	width: 600px;        
+	margin-left:auto;}
+#formations
+{
+	width: 100%;}
